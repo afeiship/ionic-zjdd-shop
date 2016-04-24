@@ -15,3 +15,7 @@ Ionic v2 for zjdd-store front-end.
 +  consolelogs or c to enable/disable console log output
 +  serverlogs or s to enable/disable server log output
 +  quit or q to shutdown the server and exit
+
+
+##resources:
++ http://ionicframework.com/docs/v2/components/#buttons
