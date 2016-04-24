@@ -1,0 +1,25 @@
+/**common Start**/
+.blank,
+.blank5,
+.blank10,
+.blank20 {
+  clear: both;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+  height: 0;
+}
+
+.blank5 {
+  height: 5px;
+}
+
+.blank10 {
+  height: 10px;
+}
+
+.blank20 {
+  height: 20px;
+}
+
+/**common  End**/

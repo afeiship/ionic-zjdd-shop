@@ -1,9 +1,10 @@
 #ionic-zjdd-shop
-Ionic v2 for zjdd-store front-end. 
+Ionic v2 for zjdd-store front-end.
 
 
 ##serve
 + ionic serve
++ http://localhost:8100/
 
 ##create new project
 + ionic start new_project --v2
@@ -19,3 +20,6 @@ Ionic v2 for zjdd-store front-end.
 
 ##resources:
 + http://ionicframework.com/docs/v2/components/#buttons
+
+##images:
++ how?
