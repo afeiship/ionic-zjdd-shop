@@ -1,0 +1,29 @@
+/**orders Start**/
+#orders_content {
+  $tabs_height: 40px;
+  $tabs_item_width:60px;
+  ion-scroll {
+    height: $tabs_height;
+  }
+  .top-tabs {
+    height: $tabs_height;
+    line-height: $tabs_height;
+    position: relative;
+    white-space: nowrap;
+    a {
+      float: left;
+      color: #666;
+      min-width: $tabs_item_width;
+      text-align: center;
+      border-bottom:3px solid transparent;
+      height:37px;
+      margin:0 10px;
+      &[data-active=true] {
+        color: #f60;
+        border-bottom-color:#f60;
+      }
+    }
+  }
+}
+
+/**orders  End**/

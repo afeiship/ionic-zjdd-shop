@@ -6,8 +6,9 @@ import {LoginPage} from './pages/login/login';
 @App({
   templateUrl: 'build/app.html',
   config: {
-    mode: 'ios'
-  } // http://ionicframework.com/docs/v2/api/config/Config/
+    mode: 'ios',
+    backButtonText: '返回'
+  }
 })
 class MyApp {
 
@@ -20,9 +21,6 @@ class MyApp {
     this.app = app;
     this.platform = platform;
     this.initializeApp();
-
-    console.log('ctor!');
-
 
     // make HelloIonicPage the root (or first) page
     this.rootPage = LoginPage;

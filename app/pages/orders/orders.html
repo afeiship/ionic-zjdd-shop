@@ -1,0 +1,17 @@
+<ion-navbar *navbar>
+  <ion-title>订单相关</ion-title>
+</ion-navbar>
+
+<ion-content id="orders_content">
+
+  <ion-scroll scrollX="true">
+    <header class="top-tabs" [style.width]="topItems.length * 25 + '%'">
+      <a href="javascript:;" *ngFor="#item of topItems" [attr.data-active]="item.active" (click)="itemClick(item)">{{item.text}}</a>
+    </header>
+  </ion-scroll>
+
+  <div class="blank5 bg-gray"></div>
+
+
+</ion-content>
+

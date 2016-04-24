@@ -1,4 +1,7 @@
 /**common Start**/
+a{
+  text-decoration: none;
+}
 .blank,
 .blank5,
 .blank10,
@@ -20,6 +23,14 @@
 
 .blank20 {
   height: 20px;
+}
+
+.tab-button{
+  min-width:40px;
+}
+
+.bg-gray{
+  background:#f2f2f2;
 }
 
 /**common  End**/
