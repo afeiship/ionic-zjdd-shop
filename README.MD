@@ -20,6 +20,6 @@ Ionic v2 for zjdd-store front-end.
 
 ##resources:
 + http://ionicframework.com/docs/v2/components/#buttons
-
++ http://ionicframework.com/docs/v2/api/config/Config/
 ##images:
 + how?
