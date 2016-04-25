@@ -17,9 +17,19 @@ Ionic v2 for zjdd-store front-end.
 +  serverlogs or s to enable/disable server log output
 +  quit or q to shutdown the server and exit
 
+## get started:
++ npm install -g cordova ionic
++ ionic start myApp tabs
++ cd myApp
++ ionic platform add ios
++ ionic build ios
++ ionic emulate ios
+
 
 ##resources:
 + http://ionicframework.com/docs/v2/components/#buttons
 + http://ionicframework.com/docs/v2/api/config/Config/
+
 ##images:
 + how?
+
